@@ -5,7 +5,6 @@ const ImagesClient = require('google-images');
 var client = new ImagesClient(process.env.CSE_ID, process.env.API_KEY);
 var mongo = require("mongodb").MongoClient;
 var mongoURL = process.env.MONGOLAB_URI;
-//mongodb://Josh5231:delete12@ds159767.mlab.com:59767/urldb
 
 
 var coreLoc = __dirname.substr(0,__dirname.length-7);
